@@ -29,7 +29,7 @@ Okay, that's somewhat cryptic. But, we get the gist. If this was JavaScript, we 
 Let's do the obvious thing and update our component to take some props.
 
 ````tsx
-const NameBadge = ({ name }: { name: string }) => {
+const NameBadge = ({ name }) => {
   return (
     <section className="badge">
       <header className="badge-header">
